@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+form {
+  width: 500px;
+  margin: 100px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form ul {
+  list-style: none;
+}
+form ul li {
+  margin-bottom: 20px;
+  position: relative;
+}
+form ul li label {
+  display: block;
+  margin-bottom: 3px;
+  color: rgb(6, 201, 120);
+}
+form ul li input,
+form ul li select {
+  width: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  font-family: inherit;
+}
+form ul li select {
+  background-color: white;
+}
+form ul li select option {
+  font-family: "Poppins", sans-serif;
+  font-size: inherit;
+}
+form ul li input:invalid,
+form ul li select:invalid {
+  border-color: red;
+}
+form ul li input:valid,
+form ul li select:valid {
+  border-color: rgb(6, 201, 120);
+}
+form ul li sub {
+  color: red;
+  position: absolute;
+  display: block;
+  top: 70px;
+}
+form ul li button {
+  margin-top: 3px;
+  outline: none;
+  border: none;
+  background-color: rgb(6, 201, 120);
+  font-family: inherit;
+  padding: 8px 24px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
